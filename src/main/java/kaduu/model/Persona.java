@@ -1,4 +1,4 @@
-package com.kaduu.cuentasclaras.model;
+package kaduu.model;
 
 
 public class Persona implements HasID {
@@ -13,12 +13,10 @@ public class Persona implements HasID {
 		this.nombre = nombre;
 	}
 	
-	@Override
 	public int getID() {
 		return id;
 	}
 
-	@Override
 	public void setID(int id) {
 		this.id = id;
 	}

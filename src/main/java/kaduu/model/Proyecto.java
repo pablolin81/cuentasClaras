@@ -1,4 +1,4 @@
-package com.kaduu.cuentasclaras.model;
+package kaduu.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,15 +17,12 @@ public class Proyecto implements HasID{
 		this.descripcion = descripcion;
 		this.gastos = gastos;
 		this.personas = personas;
-		String[] pepe = new ArrayList<String>()[2];
 	}
 
-	@Override
 	public int getID() {
 		return this.id;
 	}
 	
-	@Override
 	public void setID(int id) {
 		this.id = id;
 	}

@@ -1,4 +1,4 @@
-package com.kaduu.cuentasclaras.model;
+package kaduu.model;
 
 public class Gasto implements HasID {
 
@@ -12,16 +12,6 @@ public class Gasto implements HasID {
 		this.id = id;
 		this.descripcion = descripcion;
 		this.valor = valor;
-	}
-	
-	@Override
-	public int getID() {
-		return this.id;
-	}
-
-	@Override
-	public void setID(int id) {
-		this.id = id;
 	}
 
 	public String getDescripcion() {
@@ -44,4 +34,15 @@ public class Gasto implements HasID {
 	public String toString() {
 		return "Costo: Descripcion: " + this.descripcion + " Valor: " + valor;
 	}
+
+	public int getID() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public void setID(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

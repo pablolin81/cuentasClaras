@@ -1,4 +1,4 @@
-package com.kaduu.cuentasclaras.model;
+package kaduu.model;
 
 public interface HasID {
 	
