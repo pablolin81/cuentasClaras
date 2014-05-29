@@ -1,4 +1,4 @@
-package kaduu.model;
+package com.kaduu.model;
 
 
 public class Persona implements HasID {

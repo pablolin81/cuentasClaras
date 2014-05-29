@@ -1,4 +1,4 @@
-package kaduu.model;
+package com.kaduu.model;
 
 public class Gasto implements HasID {
 

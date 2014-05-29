@@ -1,4 +1,4 @@
-package kaduu;
+package com.kaduu;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -22,7 +22,7 @@ public class HelloAndroidActivity extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 	// Inflate the menu; this adds items to the action bar if it is present.
-	getMenuInflater().inflate(kaduu.R.menu.main, menu);
+	getMenuInflater().inflate(com.kaduu.R.menu.main, menu);
 	return true;
     }
 

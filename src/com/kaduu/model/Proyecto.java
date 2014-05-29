@@ -1,4 +1,4 @@
-package kaduu.model;
+package com.kaduu.model;
 
 import java.util.ArrayList;
 import java.util.List;
